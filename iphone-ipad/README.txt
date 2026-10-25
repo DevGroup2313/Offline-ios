@@ -1,13 +1,44 @@
 CARPE DIEM  |  Copyright (c) 2026 Yannie D. Forest. All rights reserved.
-NO LICENCE IS GRANTED. No copying, adaptation, redistribution, reverse
-engineering or commercial use without the author's written permission.
-See LICENCE.txt. Every distributed copy carries a build marker.
+The sole original work of Yannie D. Forest. NO LICENCE IS GRANTED: no
+right of use, access, copying, adaptation or distribution without the
+author's written, revocable permission. See LICENCE.txt. Every
+distributed copy carries a build marker.
 --------------------------------------------------------------------------
 
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 20261019 (20261019), 2026-10-19. Made by The Forge, 19 October 2026.
+Build 20261025 (20261025), 2026-10-25. Carpe Diem build 1059, the committee demo.
+
+NEW IN THIS BUILD
+  The icon has its own dark and tinted faces, so iOS no longer darkens the
+  light icon into a grey square in dark or tinted mode.
+
+  No date in the demonstrations is fixed any more. The first milestone,
+  now called “First full draft of your project”, falls six weeks after the
+  first visit, so no visitor sees an overdue proposal, and no public page
+  names the owner's own work.
+
+  The floating windows and their dock are back. Tabula, Abacus, Imago,
+  Scriba and Fontes open again in a floating window inside Carpe Diem, and
+  a folded window waits in the dock. The ↗ key on a window now asks where
+  it should go: its own window on this device, its own page (a file), or
+  nowhere (close). A room in its own window is a whole Carpe Diem, with
+  the same side buttons at full size, the same solid notes panel, and
+  right-click copy and paste in the notes and in Tabula. The light window
+  of builds 1051 to 1058, which caused the odd layout, is gone.
+
+  The licence now says plainly that Carpe Diem is the sole original work
+  of Yannie D. Forest, that no one else has any right to it or any access
+  to it, and that any permission is limited, personal and revocable at any
+  time (LICENCE.txt; a French translation is in LICENCE-FR.txt). The open-
+  source parts the apps use are named in THIRD_PARTY_NOTICES.txt.
+
+  The page carries a security policy that limits where it may load code
+  from and where it may send data. It also carries an integrity seal: if a
+  copy has been altered since it was built, the About panel says so. Old
+  comments and stale instructions are removed from the code; the copyright
+  and licence lines stay.
 
 THIS PACKAGE IS FOR: iPhone and iPad (one app for both).
 
@@ -208,7 +239,7 @@ THE APP FILE, CarpeDiem.ipa
     and open the repository's "Releases" page, then the release
     "Carpe Diem for iPhone and iPad". Under "Assets", click
     CarpeDiem.ipa to download it. The release notes say "build" and a
-    number: if it is 20261019, it is this version. Go to step 16.
+    number: if it is 20261025, it is this version. Go to step 16.
 15. Otherwise, have GitHub build it once (Part 3), then come back here.
 
 ONCE, ON THE WINDOWS LAPTOP

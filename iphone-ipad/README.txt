@@ -8,9 +8,16 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 20261029 (20261029), 2026-10-29. Carpe Diem build 1060, the full edition.
+Build 2026102901 (2026102901), 2026-10-29. Carpe Diem build 1061, the full edition.
 
 NEW IN THIS BUILD
+  Carpe Diem and a room can share the screen: the ↗ key of a floating
+  window offers "Side by side with Carpe Diem", with the room on the right,
+  Carpe Diem on the left, and a line between them that can be dragged; the
+  same place then offers "Float again". The copy of a room as a page in
+  the browser is no longer offered there.
+
+EARLIER, IN THE BUILD OF 29 OCTOBER 2026 (CARPE DIEM 1060)
   This is the full edition of Carpe Diem, the owner's own, as on the Mac,
   Windows and the Fire tablet: no longer the committee demonstration. Its
   work is kept on the iPhone or iPad, under the same app; export a backup

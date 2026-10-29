@@ -1,7 +1,7 @@
 Carpe Diem
 Build: 2026-10-29
-Pass: 20261029
-Stamp: 20261029
-Carpe Diem: build 1060, the full edition
+Pass: 2026102901
+Stamp: 2026102901
+Carpe Diem: build 1061, the full edition
 Copyright (c) 2026 Yannie D. Forest. All rights reserved.
 NO LICENCE IS GRANTED.

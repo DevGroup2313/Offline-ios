@@ -8,9 +8,26 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 20261025 (20261025), 2026-10-25. Carpe Diem build 1059, the committee demo.
+Build 20261029 (20261029), 2026-10-29. Carpe Diem build 1060, the full edition.
 
 NEW IN THIS BUILD
+  This is the full edition of Carpe Diem, the owner's own, as on the Mac,
+  Windows and the Fire tablet: no longer the committee demonstration. Its
+  work is kept on the iPhone or iPad, under the same app; export a backup
+  from the demonstration first if it holds anything you want to keep.
+
+  The proposal no longer carries a date of its own: choose one if and when
+  it suits you, in Candidatus, Proposal, "Rename the proposal", which now
+  opens the proposal's own details (its working title, its date with a key
+  to clear it, and its sections' names). The side buttons inside a floating
+  window are drawn as the main window's are, without the dark shadows, and
+  the 💭 there shows its number in one flat colour. Timed reminders come in
+  Carpe Diem's own blue card. While the page starts, a loading page says it
+  is still being painted; Refresh (↻ beside Display) saves the work of every
+  open room and starts again. The About panel is shorter. The workflow that
+  builds the app runs on Node.js 24.
+
+EARLIER, IN THE BUILD OF 25 OCTOBER 2026
   The icon has its own dark and tinted faces, so iOS no longer darkens the
   light icon into a grey square in dark or tinted mode.
 

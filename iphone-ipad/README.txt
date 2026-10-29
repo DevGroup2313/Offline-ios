@@ -8,9 +8,16 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026102901 (2026102901), 2026-10-29. Carpe Diem build 1061, the full edition.
+Build 2026102902 (2026102902), 2026-10-29. Carpe Diem build 1062, the full edition.
 
 NEW IN THIS BUILD
+  Ingenium's Quiet Screen is here: the leaf 🌿 in the side column opens a
+  still, dim page with a slow circle to breathe with, in English or French;
+  Focus opens it too. The mini Forge in the Author Studio is The Forge 656,
+  with its steady preview, and its loading page speaks French when the app
+  does.
+
+EARLIER, IN CARPE DIEM 1061
   Carpe Diem and a room can share the screen: the ↗ key of a floating
   window offers "Side by side with Carpe Diem", with the room on the right,
   Carpe Diem on the left, and a line between them that can be dragged; the

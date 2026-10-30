@@ -8,9 +8,15 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103010 (2026103010), 2026-10-30. Carpe Diem build 1073, the full edition.
+Build 2026103011 (2026103011), 2026-10-30. Carpe Diem build 1074, the full edition.
 
 NEW IN THIS BUILD
+  The loading page is the Forge's and Ingenium's own: Carpe Diem's seal in a turning ring, in Carpe Diem's colours.
+  Backups are compressed and can be sealed with a passphrase (AES-256), with their progress shown; Restore keeps a copy
+  of your work first. The mini Forge in French no longer flickers between English and French, and offers Another app.
+  The notes' menu and keys are in French in French mode.
+
+EARLIER, IN CARPE DIEM 1073
   No change on the iPhone and iPad: build 1073 is for the Mac and Windows apps
   (the rooms in windows of their own, on the Dock and the taskbar, with their own icons).
 

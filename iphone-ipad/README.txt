@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103002 (2026103002), 2026-10-30. Carpe Diem build 1065, the full edition.
+Build 2026103003 (2026103003), 2026-10-30. Carpe Diem build 1066, the full edition.
 
 NEW IN THIS BUILD
+  In the writing rooms, the line under a room's header counts its rooms correctly,
+  in English or French, and Research Writing no longer announces lessons it
+  already holds.
+
+EARLIER, IN CARPE DIEM 1065
   Refresh is the first row of the Display panel again, as in Ingenium and The
   Forge, and the door rings again when you open it.
 

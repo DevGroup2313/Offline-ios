@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103005 (2026103005), 2026-10-30. Carpe Diem build 1068, the full edition.
+Build 2026103006 (2026103006), 2026-10-30. Carpe Diem build 1069, the full edition.
 
 NEW IN THIS BUILD
+  Tabula opens Word documents whole by either key: tables, footnotes and lists
+  made with Word's list styles all arrive. Tested with a 100,000-word dissertation
+  with 310 footnotes.
+
+EARLIER, IN CARPE DIEM 1068
   Abacus types as Excel does: one click chooses a cell and typing replaces it,
   a double click or F2 writes inside it, and the arrow keys move between cells.
   Currency shows as $1,234.50.

@@ -8,9 +8,13 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103009 (2026103009), 2026-10-30. Carpe Diem build 1072, the full edition.
+Build 2026103010 (2026103010), 2026-10-30. Carpe Diem build 1073, the full edition.
 
 NEW IN THIS BUILD
+  No change on the iPhone and iPad: build 1073 is for the Mac and Windows apps
+  (the rooms in windows of their own, on the Dock and the taskbar, with their own icons).
+
+EARLIER, IN CARPE DIEM 1072
   A Word or PDF file dropped on the desk opens in Tabula through the full
   readers of File, Open.
 

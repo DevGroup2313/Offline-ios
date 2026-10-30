@@ -8,9 +8,13 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026102903 (2026102903), 2026-10-29. Carpe Diem build 1063, the full edition.
+Build 2026103001 (2026103001), 2026-10-30. Carpe Diem build 1064, the full edition.
 
 NEW IN THIS BUILD
+  The Quiet Screen's leaf follows its neighbours: it steps aside in the writing
+  rooms, and folds and moves exactly as the other side keys do.
+
+EARLIER, IN CARPE DIEM 1063
   While the page is only being read, its background checks run at a third
   of their pace, so the app sits lighter on the iPhone and iPad; the first
   touch brings them back at once.

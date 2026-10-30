@@ -8,9 +8,13 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103007 (2026103007), 2026-10-30. Carpe Diem build 1070, the full edition.
+Build 2026103008 (2026103008), 2026-10-30. Carpe Diem build 1071, the full edition.
 
 NEW IN THIS BUILD
+  Tabula opens a PDF as a document to write in: paragraphs, headings, lists,
+  bold and italic, and its footnotes as Tabula's own. Fill a PDF opens PDFs again.
+
+EARLIER, IN CARPE DIEM 1070
   A lighter, quicker app: the moving decorations look the same but cost almost
   nothing, and hold still where they cannot be seen. Typing in a very long
   document is about 40 per cent quicker.

@@ -8,9 +8,13 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103001 (2026103001), 2026-10-30. Carpe Diem build 1064, the full edition.
+Build 2026103002 (2026103002), 2026-10-30. Carpe Diem build 1065, the full edition.
 
 NEW IN THIS BUILD
+  Refresh is the first row of the Display panel again, as in Ingenium and The
+  Forge, and the door rings again when you open it.
+
+EARLIER, IN CARPE DIEM 1064
   The Quiet Screen's leaf follows its neighbours: it steps aside in the writing
   rooms, and folds and moves exactly as the other side keys do.
 

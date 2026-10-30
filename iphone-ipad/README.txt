@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103011 (2026103011), 2026-10-30. Carpe Diem build 1074, the full edition.
+Build 2026103012 (2026103012), 2026-10-30. Carpe Diem build 1075, the full edition.
 
 NEW IN THIS BUILD
+  Candidatus's Overview is redesigned: the next step with Begin, Break it into smaller steps and Done; today's
+  energy; Now, Next and Later; the road to the offer; rings for each part of the application; and guides at hand.
+  Home's Overview has the same makeover, in cream, light blue, sage and butter cards, by day and by night.
+
+EARLIER, IN CARPE DIEM 1074
   The loading page is the Forge's and Ingenium's own: Carpe Diem's seal in a turning ring, in Carpe Diem's colours.
   Backups are compressed and can be sealed with a passphrase (AES-256), with their progress shown; Restore keeps a copy
   of your work first. The mini Forge in French no longer flickers between English and French, and offers Another app.

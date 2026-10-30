@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103004 (2026103004), 2026-10-30. Carpe Diem build 1067, the full edition.
+Build 2026103005 (2026103005), 2026-10-30. Carpe Diem build 1068, the full edition.
 
 NEW IN THIS BUILD
+  Abacus types as Excel does: one click chooses a cell and typing replaces it,
+  a double click or F2 writes inside it, and the arrow keys move between cells.
+  Currency shows as $1,234.50.
+
+EARLIER, IN CARPE DIEM 1067
   Tabula's ribbon does what it says: a size gives that size (18 had made the text
   48 px), and the text colour and highlight keys colour the selection with the
   colour shown under them, as in Word.

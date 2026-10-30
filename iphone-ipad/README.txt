@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103003 (2026103003), 2026-10-30. Carpe Diem build 1066, the full edition.
+Build 2026103004 (2026103004), 2026-10-30. Carpe Diem build 1067, the full edition.
 
 NEW IN THIS BUILD
+  Tabula's ribbon does what it says: a size gives that size (18 had made the text
+  48 px), and the text colour and highlight keys colour the selection with the
+  colour shown under them, as in Word.
+
+EARLIER, IN CARPE DIEM 1066
   In the writing rooms, the line under a room's header counts its rooms correctly,
   in English or French, and Research Writing no longer announces lessons it
   already holds.

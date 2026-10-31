@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103012 (2026103012), 2026-10-30. Carpe Diem build 1075, the full edition.
+Build 2026103101 (2026103101), 2026-10-31. Carpe Diem build 1076, the full edition.
 
 NEW IN THIS BUILD
+  Candidatus's Applications, Proposal, Milestones and Citations are redesigned like its Overview. Every key on the
+  new pages stands raised and sinks when pressed, the cards lift, and the rings, bars and roads fill in. At a
+  phone's width every key keeps clear of the dock.
+
+EARLIER, IN CARPE DIEM 1075
   Candidatus's Overview is redesigned: the next step with Begin, Break it into smaller steps and Done; today's
   energy; Now, Next and Later; the road to the offer; rings for each part of the application; and guides at hand.
   Home's Overview has the same makeover, in cream, light blue, sage and butter cards, by day and by night.

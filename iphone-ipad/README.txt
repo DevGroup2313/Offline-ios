@@ -8,9 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103103 (2026103103), 2026-10-31. Carpe Diem build 1078, the full edition.
+Build 2026103104 (2026103104), 2026-10-31. Carpe Diem build 1079, the full edition.
 
 NEW IN THIS BUILD
+  Ascensus has its neon lights back, in its new design.
+  The Guidebook has a one-minute film of the app at work, with captions and no sound, in a calm player: nothing plays
+  until asked, it can be slowed, jumped through by scene or read instead. The tour offers it too.
+
+EARLIER, IN CARPE DIEM 1078
   Home's tabs are compact, at the left of the Backup key's row, and Offline by design is a cream card. How Candidatus
   works is at the top of the Overview. Assessments and Ascensus are redesigned in the Overview's look, with calm lists for
   Records and Marks; Ascensus's courses are numbered I to XIII.

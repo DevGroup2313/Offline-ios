@@ -8,9 +8,13 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026103104 (2026103104), 2026-10-31. Carpe Diem build 1079, the full edition.
+Build 2026110101 (2026110101), 2026-11-01. Carpe Diem build 1080, the full edition.
 
 NEW IN THIS BUILD
+  By night the little cards that name a key are solid and easy to read. The side keys stay with the Librarian's
+  conversation. Every Fontes key carries Fontes's drawing. Offline by design is white acrylic in Classic and stays tan in Folio.
+
+EARLIER, IN CARPE DIEM 1079
   Ascensus has its neon lights back, in its new design.
   The Guidebook has a one-minute film of the app at work, with captions and no sound, in a calm player: nothing plays
   until asked, it can be slowed, jumped through by scene or read instead. The tour offers it too.

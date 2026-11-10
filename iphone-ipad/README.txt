@@ -7,10 +7,14 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111002 (2026111002), 2026-11-10. Carpe Diem build 1083, the full edition.
+Build 2026111003 (2026111003), 2026-11-10. Carpe Diem build 1084, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  The five rooms speak French throughout: Tabula's ribbon and File page, Abacus's ribbon and the bar at the foot of
+  its sheet, Imago's hover words, Scriba's tabs and the whole of Fontes's form.
+
+EARLIER, IN CARPE DIEM 1083
   No change for the iPhone and iPad in this build: it brings the Mac app's sheet for the rooms' own apps and its check
   of a room's own window, which the iPhone and iPad do not use.
 

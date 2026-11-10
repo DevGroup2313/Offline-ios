@@ -7,7 +7,16 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 20261019 (20261019), 2026-10-19. Made by The Forge, 19 October 2026.
+Build 20261110 (20261110), 2026-11-10. Carpe Diem build 1082, the full edition.
+The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
+
+NEW IN THIS BUILD
+  Tabula prints in colour, from night mode too, and a list that reaches the end of a page is split there instead of
+  moving to the next page in one piece. The app inside is Carpe Diem build 1082; from build 1058, which this
+  project carried until now, it also brings every change of builds 1059 to 1081 (the Mac, Windows and Fire tablet
+  READMEs list them build by build).
+  Not checked on an iPhone or iPad when this build was prepared: GitHub builds the app, and its page was tried
+  in Safari's engine on a computer. Whether Print opens the print sheet on an iPhone or iPad was not checked.
 
 THIS PACKAGE IS FOR: iPhone and iPad (one app for both).
 

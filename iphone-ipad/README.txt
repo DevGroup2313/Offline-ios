@@ -7,10 +7,14 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 20261110 (20261110), 2026-11-10. Carpe Diem build 1082, the full edition.
+Build 2026111002 (2026111002), 2026-11-10. Carpe Diem build 1083, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  No change for the iPhone and iPad in this build: it brings the Mac app's sheet for the rooms' own apps and its check
+  of a room's own window, which the iPhone and iPad do not use.
+
+EARLIER, IN CARPE DIEM 1082
   Tabula prints in colour, from night mode too, and a list that reaches the end of a page is split there instead of
   moving to the next page in one piece. The app inside is Carpe Diem build 1082; from build 1058, which this
   project carried until now, it also brings every change of builds 1059 to 1081 (the Mac, Windows and Fire tablet

@@ -7,10 +7,15 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111003 (2026111003), 2026-11-10. Carpe Diem build 1084, the full edition.
+Build 2026111101 (2026111101), 2026-11-11. Carpe Diem build 1085, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  Tabula keeps paragraphs and bullet points in good order: bullets and numbering by paragraph, Tab and Shift+Tab
+  for list levels, real indents, Enter and Backspace as in Word, its own Undo and Redo, and tabs and indents carried to
+  and from Word files.
+
+EARLIER, IN CARPE DIEM 1084
   The five rooms speak French throughout: Tabula's ribbon and File page, Abacus's ribbon and the bar at the foot of
   its sheet, Imago's hover words, Scriba's tabs and the whole of Fontes's form.
 

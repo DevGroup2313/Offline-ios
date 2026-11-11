@@ -7,10 +7,14 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111104 (2026111104), 2026-11-11. Carpe Diem build 1088, the full edition.
+Build 2026111105 (2026111105), 2026-11-11. Carpe Diem build 1089, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  The Guidebook in nine sections with a search and a contents strip, its chapters put right in English and in
+  French, and a short guided tour by default (the full tour starts from the Guidebook).
+
+EARLIER, IN CARPE DIEM 1088
   "Open in Carpe Diem" for Word, PDF, plain text, web pages and Markdown files, from Files, Mail or a share
   sheet: the file opens in Tabula. Built and checked by GitHub; not tried on an iPhone or iPad.
 

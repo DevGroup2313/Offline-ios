@@ -7,10 +7,15 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111101 (2026111101), 2026-11-11. Carpe Diem build 1085, the full edition.
+Build 2026111102 (2026111102), 2026-11-11. Carpe Diem build 1086, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  A sign-in for Carpe Diem, as Ingenium has it: a user name, a password and a ten-word recovery phrase, and what it
+  keeps on the device sealed with AES-256-GCM. Set it from the lock key on the welcome card. Whether this device's web
+  view offers the cryptography it needs was not tried; where it does not, the sign-in says so.
+
+EARLIER, IN CARPE DIEM 1085
   Tabula keeps paragraphs and bullet points in good order: bullets and numbering by paragraph, Tab and Shift+Tab
   for list levels, real indents, Enter and Backspace as in Word, its own Undo and Redo, and tabs and indents carried to
   and from Word files.

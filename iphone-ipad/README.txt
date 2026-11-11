@@ -7,10 +7,14 @@ See LICENCE.txt. Every distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111102 (2026111102), 2026-11-11. Carpe Diem build 1086, the full edition.
+Build 2026111103 (2026111103), 2026-11-11. Carpe Diem build 1087, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  The Writing Rooms each have a face of their own: Proposal, Curriculum, Research Writing and the French Tutor have
+  their medallion, colour, Latin line and raised cards, by day and by night, in English and in French.
+
+EARLIER, IN CARPE DIEM 1086
   A sign-in for Carpe Diem, as Ingenium has it: a user name, a password and a ten-word recovery phrase, and what it
   keeps on the device sealed with AES-256-GCM. Set it from the lock key on the welcome card. Whether this device's web
   view offers the cryptography it needs was not tried; where it does not, the sign-in says so.

@@ -8,10 +8,14 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026111105 (2026111105), 2026-11-11. Carpe Diem build 1089, the full edition.
+Build 2026111201 (2026111201), 2026-11-12. Carpe Diem build 1090, the full edition.
 The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
+  No change in this edition's pages: build 1090 brings the demonstrations up to date with builds 1082 to 1089, and in
+  their Guidebook places the Projects chapter in Your projects (it had fallen into a tenth section of its own).
+
+EARLIER, IN CARPE DIEM 1089
   The Guidebook in nine sections with a search and a contents strip, its chapters put right in English and in
   French, and a short guided tour by default (the full tour starts from the Guidebook).
 

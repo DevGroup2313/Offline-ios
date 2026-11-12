@@ -37,5 +37,12 @@ final class ShellScene: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = DeskViewController()
         window.makeKeyAndVisible()
         self.window = window
+        // build 1088: a file that opened Carpe Diem waits for the page (ShellFiles, in DeskView.swift)
+        ShellFiles.shared.receive(connectionOptions.urlContexts.map { $0.url })
+    }
+
+    /// build 1088: a file opened in Carpe Diem while it is open
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        ShellFiles.shared.receive(URLContexts.map { $0.url })
     }
 }

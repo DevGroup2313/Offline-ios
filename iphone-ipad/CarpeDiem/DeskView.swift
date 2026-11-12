@@ -43,6 +43,8 @@ final class DeskViewController: UIViewController, WKNavigationDelegate, WKUIDele
         scripts.add(self, name: "shellLog")
         // 9s58: the clipboard for the page's own menu, with a reply (ShellClipboard, below)
         scripts.addScriptMessageHandler(ShellClipboard(), contentWorld: .page, name: "shellClipboard")
+        // build 1088: files another app gives Carpe Diem, taken by the page (ShellFiles, below)
+        scripts.addScriptMessageHandler(ShellFiles.shared, contentWorld: .page, name: "shellFiles")
         scripts.addUserScript(WKUserScript(source: DeskViewController.bridge,
                                            injectionTime: .atDocumentStart, forMainFrameOnly: false))
         scripts.addUserScript(WKUserScript(source: DeskViewController.edgeScript,
@@ -115,6 +117,13 @@ final class DeskViewController: UIViewController, WKNavigationDelegate, WKUIDele
       window.pywebview = window.pywebview || {};
       window.pywebview.api = window.pywebview.api || {};
       window.pywebview.api.save_file = send;
+      // build 1088: a file another app gave Carpe Diem, asked for as from the Mac and Windows apps
+      var files = function (m) {
+        try { return window.webkit.messageHandlers.shellFiles.postMessage(m); } catch (e) { return Promise.resolve(null); }
+      };
+      window.pywebview.api.take_file = function (where) { return files({ op: 'take', where: String(where || 'desk') }); };
+      window.pywebview.api.file_part = function (key, i) { return files({ op: 'part', key: String(key), i: Number(i) }); };
+      window.pywebview.api.file_opened = function (name, how) { return files({ op: 'opened', name: String(name), how: String(how) }); };
     })();
     """
 
@@ -174,6 +183,8 @@ final class DeskViewController: UIViewController, WKNavigationDelegate, WKUIDele
       var hs = window.webkit && window.webkit.messageHandlers;
       var r = { title: document.title, text: ((b && b.innerText) || '').length, errors: errs.length, first: errs.slice(0, 3),
         bridge: !!(window.pywebview && window.pywebview.api && window.pywebview.api.save_file && window.CarpeNative),
+        files: !!(window.pywebview && window.pywebview.api && window.pywebview.api.take_file && hs && hs.shellFiles),
+        secure: window.isSecureContext === true, subtle: !!(window.crypto && window.crypto.subtle),
         clipHandler: !!(hs && hs.shellClipboard),
         storage: (function () { try { localStorage.setItem('__shell_check', '1'); var ok = localStorage.getItem('__shell_check') === '1';
           localStorage.removeItem('__shell_check'); return ok; } catch (e) { return false; } })() };
@@ -426,6 +437,66 @@ final class ShellClipboard: NSObject, WKScriptMessageHandlerWithReply {
             replyHandler(true, nil)
         default:
             replyHandler(nil, "unknown request")
+        }
+    }
+}
+
+/* Build 1088: a file another app gives Carpe Diem (Open in Carpe Diem, from Files, Mail or Safari) waits here until
+   the page takes it, the way the Mac and Windows apps keep one: the page asks every second or so (take), then fetches
+   it in pieces (part), and Tabula opens it with its own readers. Only the kinds Tabula reads are kept. */
+final class ShellFiles: NSObject, WKScriptMessageHandlerWithReply {
+    static let shared = ShellFiles()
+    static let partBytes = 393216
+    static let openable: Set<String> = ["docx", "pdf", "txt", "text", "md", "markdown", "html", "htm"]
+    private var waiting: [(key: String, name: String, data: Data)] = []
+    private var given: (key: String, name: String, data: Data)?
+
+    func receive(_ urls: [URL]) {
+        for url in urls {
+            guard ShellFiles.openable.contains(url.pathExtension.lowercased()) else { continue }
+            let scoped = url.startAccessingSecurityScopedResource()
+            defer { if scoped { url.stopAccessingSecurityScopedResource() } }
+            guard let data = try? Data(contentsOf: url) else { continue }
+            waiting.append((key: UUID().uuidString, name: url.lastPathComponent, data: data))
+            // the copy the system made in the app's own Inbox is not kept once read; the file itself stays where it was
+            if url.path.contains("/Documents/Inbox/") { try? FileManager.default.removeItem(at: url) }
+        }
+    }
+
+    func userContentController(_ userContentController: WKUserContentController,
+                               didReceive message: WKScriptMessage,
+                               replyHandler: @escaping (Any?, String?) -> Void) {
+        // only Carpe Diem's own page (carpe-app://), as for the clipboard
+        guard message.frameInfo.securityOrigin.protocol == "carpe-app",
+              let body = message.body as? [String: Any], let op = body["op"] as? String else {
+            replyHandler(nil, nil)
+            return
+        }
+        switch op {
+        case "take":
+            if waiting.isEmpty {
+                replyHandler(nil, nil)
+                return
+            }
+            let f = waiting.removeFirst()
+            given = f
+            let parts = max(1, (f.data.count + ShellFiles.partBytes - 1) / ShellFiles.partBytes)
+            replyHandler(["key": f.key, "name": f.name, "parts": parts], nil)
+        case "part":
+            guard let f = given, let key = body["key"] as? String, key == f.key,
+                  let i = (body["i"] as? NSNumber)?.intValue, i >= 0 else {
+                replyHandler("", nil)
+                return
+            }
+            let from = i * ShellFiles.partBytes
+            guard from < f.data.count else {
+                replyHandler("", nil)
+                return
+            }
+            let to = min(f.data.count, from + ShellFiles.partBytes)
+            replyHandler(f.data.subdata(in: from..<to).base64EncodedString(), nil)
+        default:
+            replyHandler(true, nil)
         }
     }
 }

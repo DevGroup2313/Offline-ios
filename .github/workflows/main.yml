@@ -257,10 +257,12 @@ jobs:
           if not r.get('text'): bad.append('the page shows no text')
           if not r.get('storage'): bad.append('the page could not keep anything in its storage')
           if not r.get('bridge'): bad.append('the page did not find the file saver')
+          if 'files' in r and not r.get('files'): bad.append('the page did not find the door for files opened in Carpe Diem')
           for e in r.get('first') or []: print('::warning::page error: ' + str(e)[:300])
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
               f.write('### iPhone simulator: ' + ('the page opened' if not bad else 'PROBLEM') + '\n\n')
               f.write('Title: %s; text: %s characters; storage: %s; file saver: %s; page errors: %s\n' % (r.get('title'), r.get('text'), r.get('storage'), r.get('bridge'), r.get('errors')))
+              f.write('Files opened in Carpe Diem: %s; secure context: %s; WebCrypto (for the sign-in): %s\n' % (r.get('files'), r.get('secure'), r.get('subtle')))
           with open(sys.argv[1] + '.verdict', 'w') as f:
               f.write('; '.join(bad))
           if bad:

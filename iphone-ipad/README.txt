@@ -8,157 +8,46 @@ distributed copy carries a build marker.
 CARPE DIEM FOR IPHONE AND IPAD
 ==============================
 
-Build 2026110102 (2026110102), 2026-11-01. Carpe Diem build 1081, the full edition.
+Build 2026111105 (2026111105), 2026-11-11. Carpe Diem build 1089, the full edition.
+The project was made by The Forge on 19 October 2026 (then Carpe Diem build 1058).
 
 NEW IN THIS BUILD
-  The Guidebook's film is sharp, filmed at twice the resolution, and its side keys are drawn by your own device, so on a
-  Mac they are Apple's. Day and night reach a room's own window at once.
+  The Guidebook in nine sections with a search and a contents strip, its chapters put right in English and in
+  French, and a short guided tour by default (the full tour starts from the Guidebook).
 
-EARLIER, IN CARPE DIEM 1080
-  By night the little cards that name a key are solid and easy to read. The side keys stay with the Librarian's
-  conversation. Every Fontes key carries Fontes's drawing. Offline by design is white acrylic in Classic and stays tan in Folio.
+EARLIER, IN CARPE DIEM 1088
+  "Open in Carpe Diem" for Word, PDF, plain text, web pages and Markdown files, from Files, Mail or a share
+  sheet: the file opens in Tabula. Built and checked by GitHub; not tried on an iPhone or iPad.
 
-EARLIER, IN CARPE DIEM 1079
-  Ascensus has its neon lights back, in its new design.
-  The Guidebook has a one-minute film of the app at work, with captions and no sound, in a calm player: nothing plays
-  until asked, it can be slowed, jumped through by scene or read instead. The tour offers it too.
+EARLIER, IN CARPE DIEM 1087
+  The Writing Rooms each have a face of their own: Proposal, Curriculum, Research Writing and the French Tutor have
+  their medallion, colour, Latin line and raised cards, by day and by night, in English and in French.
 
-EARLIER, IN CARPE DIEM 1078
-  Home's tabs are compact, at the left of the Backup key's row, and Offline by design is a cream card. How Candidatus
-  works is at the top of the Overview. Assessments and Ascensus are redesigned in the Overview's look, with calm lists for
-  Records and Marks; Ascensus's courses are numbered I to XIII.
+EARLIER, IN CARPE DIEM 1086
+  A sign-in for Carpe Diem, as Ingenium has it: a user name, a password and a ten-word recovery phrase, and what it
+  keeps on the device sealed with AES-256-GCM. Set it from the lock key on the welcome card. Whether this device's web
+  view offers the cryptography it needs was not tried; where it does not, the sign-in says so.
 
-EARLIER, IN CARPE DIEM 1077
-  The Librarian's and Magister's conversations have their new look: Ingenium's chat in Carpe Diem's colours, in three
-  looks chosen from the ⋯ menu (Carpe Diem, Soft, Clean), by day and by night, each message with its own keys.
-  Home is no longer empty on a low-energy day: it shows the low day's own card, with Show everything again.
+EARLIER, IN CARPE DIEM 1085
+  Tabula keeps paragraphs and bullet points in good order: bullets and numbering by paragraph, Tab and Shift+Tab
+  for list levels, real indents, Enter and Backspace as in Word, its own Undo and Redo, and tabs and indents carried to
+  and from Word files.
 
-EARLIER, IN CARPE DIEM 1076
-  Candidatus's Applications, Proposal, Milestones and Citations are redesigned like its Overview. Every key on the
-  new pages stands raised and sinks when pressed, the cards lift, and the rings, bars and roads fill in. At a
-  phone's width every key keeps clear of the dock.
+EARLIER, IN CARPE DIEM 1084
+  The five rooms speak French throughout: Tabula's ribbon and File page, Abacus's ribbon and the bar at the foot of
+  its sheet, Imago's hover words, Scriba's tabs and the whole of Fontes's form.
 
-EARLIER, IN CARPE DIEM 1075
-  Candidatus's Overview is redesigned: the next step with Begin, Break it into smaller steps and Done; today's
-  energy; Now, Next and Later; the road to the offer; rings for each part of the application; and guides at hand.
-  Home's Overview has the same makeover, in cream, light blue, sage and butter cards, by day and by night.
+EARLIER, IN CARPE DIEM 1083
+  No change for the iPhone and iPad in this build: it brings the Mac app's sheet for the rooms' own apps and its check
+  of a room's own window, which the iPhone and iPad do not use.
 
-EARLIER, IN CARPE DIEM 1074
-  The loading page is the Forge's and Ingenium's own: Carpe Diem's seal in a turning ring, in Carpe Diem's colours.
-  Backups are compressed and can be sealed with a passphrase (AES-256), with their progress shown; Restore keeps a copy
-  of your work first. The mini Forge in French no longer flickers between English and French, and offers Another app.
-  The notes' menu and keys are in French in French mode.
-
-EARLIER, IN CARPE DIEM 1073
-  No change on the iPhone and iPad: build 1073 is for the Mac and Windows apps
-  (the rooms in windows of their own, on the Dock and the taskbar, with their own icons).
-
-EARLIER, IN CARPE DIEM 1072
-  A Word or PDF file dropped on the desk opens in Tabula through the full
-  readers of File, Open.
-
-EARLIER, IN CARPE DIEM 1071
-  Tabula opens a PDF as a document to write in: paragraphs, headings, lists,
-  bold and italic, and its footnotes as Tabula's own. Fill a PDF opens PDFs again.
-
-EARLIER, IN CARPE DIEM 1070
-  A lighter, quicker app: the moving decorations look the same but cost almost
-  nothing, and hold still where they cannot be seen. Typing in a very long
-  document is about 40 per cent quicker.
-
-EARLIER, IN CARPE DIEM 1069
-  Tabula opens Word documents whole by either key: tables, footnotes and lists
-  made with Word's list styles all arrive. Tested with a 100,000-word dissertation
-  with 310 footnotes.
-
-EARLIER, IN CARPE DIEM 1068
-  Abacus types as Excel does: one click chooses a cell and typing replaces it,
-  a double click or F2 writes inside it, and the arrow keys move between cells.
-  Currency shows as $1,234.50.
-
-EARLIER, IN CARPE DIEM 1067
-  Tabula's ribbon does what it says: a size gives that size (18 had made the text
-  48 px), and the text colour and highlight keys colour the selection with the
-  colour shown under them, as in Word.
-
-EARLIER, IN CARPE DIEM 1066
-  In the writing rooms, the line under a room's header counts its rooms correctly,
-  in English or French, and Research Writing no longer announces lessons it
-  already holds.
-
-EARLIER, IN CARPE DIEM 1065
-  Refresh is the first row of the Display panel again, as in Ingenium and The
-  Forge, and the door rings again when you open it.
-
-EARLIER, IN CARPE DIEM 1064
-  The Quiet Screen's leaf follows its neighbours: it steps aside in the writing
-  rooms, and folds and moves exactly as the other side keys do.
-
-EARLIER, IN CARPE DIEM 1063
-  While the page is only being read, its background checks run at a third
-  of their pace, so the app sits lighter on the iPhone and iPad; the first
-  touch brings them back at once.
-
-EARLIER, IN CARPE DIEM 1062
-  Ingenium's Quiet Screen is here: the leaf 🌿 in the side column opens a
-  still, dim page with a slow circle to breathe with, in English or French;
-  Focus opens it too. The mini Forge in the Author Studio is The Forge 656,
-  with its steady preview, and its loading page speaks French when the app
-  does.
-
-EARLIER, IN CARPE DIEM 1061
-  Carpe Diem and a room can share the screen: the ↗ key of a floating
-  window offers "Side by side with Carpe Diem", with the room on the right,
-  Carpe Diem on the left, and a line between them that can be dragged; the
-  same place then offers "Float again". The copy of a room as a page in
-  the browser is no longer offered there.
-
-EARLIER, IN THE BUILD OF 29 OCTOBER 2026 (CARPE DIEM 1060)
-  This is the full edition of Carpe Diem, the owner's own, as on the Mac,
-  Windows and the Fire tablet: no longer the committee demonstration. Its
-  work is kept on the iPhone or iPad, under the same app; export a backup
-  from the demonstration first if it holds anything you want to keep.
-
-  The proposal no longer carries a date of its own: choose one if and when
-  it suits you, in Candidatus, Proposal, "Rename the proposal", which now
-  opens the proposal's own details (its working title, its date with a key
-  to clear it, and its sections' names). The side buttons inside a floating
-  window are drawn as the main window's are, without the dark shadows, and
-  the 💭 there shows its number in one flat colour. Timed reminders come in
-  Carpe Diem's own blue card. While the page starts, a loading page says it
-  is still being painted; Refresh (↻ beside Display) saves the work of every
-  open room and starts again. The About panel is shorter. The workflow that
-  builds the app runs on Node.js 24.
-
-EARLIER, IN THE BUILD OF 25 OCTOBER 2026
-  The icon has its own dark and tinted faces, so iOS no longer darkens the
-  light icon into a grey square in dark or tinted mode.
-
-  No date in the demonstrations is fixed any more. The first milestone,
-  now called “First full draft of your project”, falls six weeks after the
-  first visit, so no visitor sees an overdue proposal, and no public page
-  names the owner's own work.
-
-  The floating windows and their dock are back. Tabula, Abacus, Imago,
-  Scriba and Fontes open again in a floating window inside Carpe Diem, and
-  a folded window waits in the dock. The ↗ key on a window now asks where
-  it should go: its own window on this device, its own page (a file), or
-  nowhere (close). A room in its own window is a whole Carpe Diem, with
-  the same side buttons at full size, the same solid notes panel, and
-  right-click copy and paste in the notes and in Tabula. The light window
-  of builds 1051 to 1058, which caused the odd layout, is gone.
-
-  The licence now says plainly that Carpe Diem is the sole original work
-  of Yannie D. Forest, that no one else has any right to it or any access
-  to it, and that any permission is limited, personal and revocable at any
-  time (LICENCE.txt; a French translation is in LICENCE-FR.txt). The open-
-  source parts the apps use are named in THIRD_PARTY_NOTICES.txt.
-
-  The page carries a security policy that limits where it may load code
-  from and where it may send data. It also carries an integrity seal: if a
-  copy has been altered since it was built, the About panel says so. Old
-  comments and stale instructions are removed from the code; the copyright
-  and licence lines stay.
+EARLIER, IN CARPE DIEM 1082
+  Tabula prints in colour, from night mode too, and a list that reaches the end of a page is split there instead of
+  moving to the next page in one piece. The app inside is Carpe Diem build 1082; from build 1058, which this
+  project carried until now, it also brings every change of builds 1059 to 1081 (the Mac, Windows and Fire tablet
+  READMEs list them build by build).
+  Not checked on an iPhone or iPad when this build was prepared: GitHub builds the app, and its page was tried
+  in Safari's engine on a computer. Whether Print opens the print sheet on an iPhone or iPad was not checked.
 
 THIS PACKAGE IS FOR: iPhone and iPad (one app for both).
 
